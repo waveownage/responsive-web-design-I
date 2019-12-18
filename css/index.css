@@ -4,17 +4,19 @@ body {
 }
 .logo {
     width:25%;
+    display: flex;
 
     
 }
 .top {
     display:flex;
-    flex-direction: column;
+    flex-direction: reverse row;
     align-items: center;
 }
 nav {
     width:100%;
     display: flex;
+
 
 }
   
@@ -28,11 +30,16 @@ header nav a {
   }
 a:hover {
 	transition: 0.4s;
-    color: #ffffff;
+    color: blueviolet;
 }
-
+.header-img{
+    width: 40%;
+    padding-left: 8%;
+}
 .section1 {
-	padding-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .section1text {
   display: flex;
@@ -49,13 +56,14 @@ a:hover {
   background-color: white;
   font-size: 14px;
   border: 1px solid black;
-  width: 20%;
-  padding: 1% 0%;
+  width: 50%;
+  padding: 2% 0%;
 } 
+
 
 button:hover {
 	transition: 0.4s;
-    color: green;
+    color: blueviolet;
 }
 
 .section2top {
