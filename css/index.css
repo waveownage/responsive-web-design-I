@@ -1,3 +1,193 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+body {
+    padding: 5%;
+    margin: auto;
+}
+.logo {
+    width:25%;
+    display: flex;
+
+    
+}
+.top {
+    display:flex;
+    flex-direction: reverse row;
+    align-items: center;
+}
+nav {
+    width:100%;
+    display: flex;
 
 
+}
+  
+header nav a {
+	font-size: 16px;
+	color: gray;
+    text-decoration: none;
+    padding-top: 2%;
+    width: 18%;
+
+  }
+a:hover {
+	transition: 0.4s;
+    color: blueviolet;
+}
+.header-img{
+    width: 40%;
+    padding-left: 8%;
+}
+.section1 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section1text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  line-height: 200%;
+  height: 30%;
+  
+
+}
+.getstarted {
+  background-color: white;
+  font-size: 14px;
+  border: 1px solid black;
+  width: 50%;
+  padding: 2% 0%;
+} 
+
+
+button:hover {
+	transition: 0.4s;
+    color: blueviolet;
+}
+
+.section2top {
+  border-top: 1px solid black;
+  margin-top: 5%;
+  padding-top: 5%;
+  display: flex;
+}
+.section2toptext {
+  width: 48%;
+  padding-right: 2%;
+  align-items: center;
+}
+
+.middle-img {
+    width: 100%;
+    }
+
+.section2bottom {
+  display: flex;
+  align-items: center;
+}
+.section2bottomtext {
+  align-items: center;
+}
+.contact {
+  padding: 2%;
+  border-top: 1px solid black;
+}
+footer {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  nav {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
+
+  }
+  .header-img{
+    display: none;
+  
+
+  }
+  .logo {
+    width: 30%;
+    align-items: flex-end;
+
+  }
+  header nav a {
+    width: 15%;
+    padding-top: 7%;
+
+  }
+  .section1text {
+    width:100%;
+
+  }
+  .getstarted {
+    width:30%;
+    padding: 1% 4%;
+    
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  a:nth-of-type(1) { 
+    order: 1; 
+    border-top: 1px solid gray;
+  }
+  a:nth-of-type(2) { 
+    order: 2;
+  }
+  a:nth-of-type(3) { 
+      order: 3;
+  }
+  a:nth-of-type(4) { 
+    order: 4;
+  }
+  a:nth-of-type(5) { 
+  order: 5;
+  }
+  a:nth-of-type(6) { 
+    order: 6;
+    }
+    
+  header nav a {
+  width:100%;
+  text-align: center;
+  padding-bottom: 6%;
+  border-bottom: 1px solid grey;
+  }
+
+  .logo {
+    width: 50%;
+    padding-bottom: 6%;
+  }
+
+  .getstarted {
+    width:50%;
+    padding: 1% 4%;
+    margin-bottom: 10%;
+  }
+
+  .section2top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .section2toptext {
+    width: 100%;
+  }
+  .section2bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .section2bottomtext {
+    width: 100%;
+  }
+}
