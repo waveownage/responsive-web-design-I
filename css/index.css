@@ -97,5 +97,37 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 800px) {
+  nav {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
+
+  }
+  .header-img{
+    display: none;
+  
+
+  }
+  .logo {
+    width: 30%;
+    align-items: flex-end;
+
+  }
+  header nav a {
+    width: 15%;
+    padding-top: 7%;
+
+  }
+  .section1text {
+    width:100%;
+
+  }
+  .getstarted {
+    width:30%;
+    padding: 1% 4%;
+    
+  }
+}
 
 
